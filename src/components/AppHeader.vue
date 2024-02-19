@@ -26,7 +26,7 @@ export default{
             <span>CONTACT</span>
         </div>
         <div class="d-flex align-items-center gap-5">
-            <button class="p-3 px-5 rounded-5 border-0">PURCHASE</button>
+            <button class="p-3 px-5 rounded-5 border-0 box">PURCHASE</button>
             <i class="fa-solid fa-magnifying-glass"></i>
         </div>    
     </div>
@@ -39,12 +39,30 @@ export default{
    #fix{
     position: fixed;
     width: 100%;
-   }
+    z-index: 99;
+   
     span{
         font-weight:500 ;
     }
     button {
         color: white;
-  background-image: linear-gradient(to right, #96E061 , #05d9a4);
+        background-image: linear-gradient(to right, #96E061 , #05d9a4);
+        background-color: #a9aca6;
+        box-shadow: 0 8px 16px 0 rgba(139, 223, 102, .1), 0 6px 20px 0 rgba(13, 214, 158, .5);
+    }
+    button:hover{
+        background-color: black;
+        background-image: none;
+        transition: 2s;
+    }
+
+    i{
+        color: #00d9a6
+    }
+
 }
+
 </style>
+
+
+        

@@ -1,9 +1,11 @@
 <script>
 import {store} from './store'
 import AppHeader from './components/AppHeader.vue'
+import AppAboutUs from './components/AppAboutUs.vue'
 export default{
     components:{
-        AppHeader
+        AppHeader,
+        AppAboutUs
     },
     data() {
         return {
@@ -15,6 +17,7 @@ export default{
 
 <template>
     <AppHeader/>
+    <AppAboutUs/>
 </template>
 
 <style lang="scss">
