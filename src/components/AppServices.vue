@@ -79,8 +79,9 @@ export default{
 #card:hover {
     box-shadow: 0px 0px 30px -1px rgba(0,0,0,0.1); /* Cambia il box-shadow quando l'elemento è in hover */
     animation-name: opa;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
     color: white;
+    box-shadow: 0 8px 16px 0 rgba(139, 223, 102, .1), 0 6px 20px 0 rgba(13, 214, 158, .5);
     background-image: linear-gradient(to right, #96E061, #05d9a4);
     #ino{
             display: block;
