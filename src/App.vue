@@ -3,11 +3,15 @@ import {store} from './store'
 import AppHeader from './components/AppHeader.vue'
 import AppAboutUs from './components/AppAboutUs.vue'
 import AppServices from './components/AppServices.vue'
+import AppMission from './components/AppMission.vue'
+import AppExamples from './components/AppExamples.vue'
 export default{
     components:{
         AppHeader,
         AppAboutUs,
-        AppServices
+        AppServices,
+        AppMission,
+        AppExamples
     },
     data() {
         return {
@@ -21,6 +25,8 @@ export default{
     <AppHeader/>
     <AppAboutUs/>
     <AppServices/>
+    <AppMission/>
+    <AppExamples/>
 </template>
 
 <style lang="scss">

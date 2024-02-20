@@ -77,7 +77,7 @@ export default{
 }
 
 #card:hover {
-    box-shadow: 0px 0px 30px -1px rgba(0,0,0,0.1); /* Cambia il box-shadow quando l'elemento è in hover */
+    box-shadow: 0px 0px 30px -1px rgba(0,0,0,0.1);
     animation-name: opa;
     animation-duration: 2s;
     color: white;
@@ -103,8 +103,8 @@ export default{
 
     #ish{
         background: linear-gradient(to bottom left, #96E061 , #05d9a4);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
 }
