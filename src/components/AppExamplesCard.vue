@@ -26,7 +26,8 @@ export default{
 </template>
 
 <style lang="scss" setup>
-    .position-absolute{
+#card{
+     .position-absolute{
         display: none;
         color: white;
         bottom: 0;
@@ -43,18 +44,20 @@ export default{
         height: 100%;
     }
 
-    #card:hover{
-        .position-absolute{
-            display: block;
-        }
-        animation-name: opa;
-        animation-duration: 2s;
-        box-shadow: 0 8px 16px 0 rgba(139, 223, 102, .1), 0 6px 20px 0 rgba(13, 214, 158, .5);
-    
-    }
-
-    @keyframes opa {
-    0% { opacity: .3; }
-    100% { opacity: 1; }
 }
+#card:hover{
+    .position-absolute{
+        display: block;
+    }
+    animation-name: opa;
+    animation-duration: 2s;
+    box-shadow: 0 8px 16px 0 rgba(139, 223, 102, .1), 0 6px 20px 0 rgba(13, 214, 158, .5);
+
+}
+
+@keyframes opa {
+0% { opacity: .3; }
+100% { opacity: 1; }
+}  
+ 
 </style>
