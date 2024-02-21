@@ -153,7 +153,7 @@ export default{
     
     #btnN {
         color: white;
-        background-color: black;
+        background-image: linear-gradient(to right, #545454, #000000);
         margin-top: 40px;
         margin-bottom: 50px;
     }

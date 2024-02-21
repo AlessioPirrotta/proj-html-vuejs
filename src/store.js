@@ -69,7 +69,24 @@ export const store = reactive ({
             text: 'BRANDING'
         },
         
-    ]
+    ],
+    arrBlog:[
+        {
+            photo: 'serious-businesswoman-with-documents-talking-on-P9Q6LX6-1024.jpg',
+            name: 'Marketing Ideas',
+            text: 'May 24, 2018 by Alex'
+        },
+        {
+            photo: 'Businessman-at-the-desk-in-his-office-resting--1024x768.jpg',
+            name: 'Rest During Working Hours',
+            text: 'May 24, 2018 by Alex'
+        },
+        {
+            photo: 'simple-home-office-with-tree-PBXRXYB-large-1024x768.jpg',
+            name: 'Develop Your Startup Idea',
+            text: 'May 24, 2018 by Alex'
+        },
+    ],
 })
 
 

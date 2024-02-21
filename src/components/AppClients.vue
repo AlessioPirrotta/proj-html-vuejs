@@ -2,7 +2,7 @@
     import {store} from '../store'
     
 export default{
-    name:'AppHeader',
+    name:'AppClients',
     data() {
         return {
             store
