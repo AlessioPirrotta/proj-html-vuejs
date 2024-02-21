@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-<div id="blog1" style="height: 1500px;" class="d-flex flex-column align-items-center justify-content-center position-relative" >
+<div id="blog1" style="height: 1400px;" class="d-flex flex-column align-items-center position-relative" >
     <h1 >Latest News & our <span style="color:#00d9a6 ;">Blog</span></h1>
     <div class="d-flex gap-2 py-4">
         <div class="div_hr1"></div>
@@ -49,6 +49,7 @@ export default {
 
 <style lang="scss" setup>
 #blog1{
+    padding-top: 250px;
     background-color: #fafafa;
     padding-inline: 150px;
     h1{
@@ -98,7 +99,7 @@ export default {
     #blog2{
         gap: 30px;
         padding-inline: 150px;
-        bottom: -120px;
+        bottom: -150px;
         h2{
             font-size: 40px;
             padding-bottom: 50px;
