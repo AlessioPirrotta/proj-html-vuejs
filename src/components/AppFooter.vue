@@ -8,7 +8,16 @@ export default{
             store
         }
     },
-}
+    methods: {
+        scrollToHeader() {
+        window.scrollTo({
+        top: 0,
+        behavior: 'smooth' 
+      });
+    }
+    }
+    }
+
 </script>
 
 <template>
@@ -21,14 +30,19 @@ export default{
                 <i class="fa-brands fa-pinterest-p"></i>
             </div>
         </div>
-
+        <i id="point" style="font-size: 50px; cursor: pointer;" class="fa-solid fa-hand-pointer ps-5" @click="scrollToHeader"></i>
     </footer>
 </template>
 
 <style lang="scss" setup>
 footer{
     color: #939393;
- background-image: linear-gradient(to right, #545454, #000000);;
+ background-image: linear-gradient(to right, #545454, #000000);
+ i:hover{
+    background: linear-gradient(to bottom left, #96E061 , #05d9a4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+ }
 }
 
  

@@ -8,7 +8,8 @@ export default{
             store
         }
     },
-}
+};
+
 </script>
 
 <template>
@@ -54,7 +55,7 @@ export default{
                     there live the blind texts. Separated they ive in Bookmarksgrove right at the coast of the
                     Semantics, a large language ocean.Separated they live in Bookmarksgrove.
                 </p>
-                <button id="btnN" style="width: 10%; black;" class=" d-flex justify-content-center align-items-centerp-3  py-3 p-3 rounded-5 border-0">READ MORE</button>
+                <button @mouseover="color()" ref="btn" id="btnN" style="width: 10%; black;" class=" d-flex justify-content-center align-items-centerp-3  py-3 p-3 rounded-5 border-0">READ MORE</button>
                 <p style="font-size: 15px;" class="fw-bold">FACEBOOK - INSTAGRAM - YOUTUBE - TWITTER</p>
               </div>
             </div>
@@ -116,7 +117,7 @@ export default{
     }
 
     img{
-      width: 1100px;
+      width: 66%;
       position:absolute;
       right: -150px;
       
@@ -150,13 +151,15 @@ export default{
     p{
       width: 40%;
     }
-    
-    #btnN {
-        color: white;
-        background-image: linear-gradient(to right, #545454, #000000);
-        margin-top: 40px;
-        margin-bottom: 50px;
+
+    #btnN{
+      color: white;
+    background-image: linear-gradient(to right, #545454, #000000);
+    margin-top: 40px;
+    margin-bottom: 50px;
     }
+
+  
     #indicators > button {
         color: white;
         background-image: linear-gradient(to right, #96E061 , #05d9a4);
@@ -169,7 +172,17 @@ export default{
       right: 0px;
     }
 
- }
+    #point{
+      left: 50%;
+    }
+
+}
+    
+ 
+
+ 
+
+
 
 
 

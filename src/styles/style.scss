@@ -1,5 +1,9 @@
 @import "bootstrap/scss/bootstrap";
 
+html{
+    position: relative;
+}
+
 *{
     padding: 0;
     margin: 0;

@@ -27,7 +27,7 @@ export default{
         </div>
         <div class="d-flex align-items-center gap-5">
             <button class="p-3 px-5 rounded-5 border-0 box">PURCHASE</button>
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <i id="magn" class="fa-solid fa-magnifying-glass"></i>
         </div>    
     </div>
     
@@ -56,8 +56,22 @@ export default{
         transition: 2s;
     }
 
-    i{
-        color: #00d9a6
+    #magn{
+        color: #00d9a6;
+        
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    #point{
+        color: black;
+        bottom: -1000px;
+    }
+
+    span:hover{
+        opacity: .5;
+        cursor: pointer;
     }
 
 }

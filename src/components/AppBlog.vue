@@ -27,7 +27,7 @@ export default {
                     :key="index"
                     :propsItem="item"/>
     </div>
-    <button id="btnN" style="width: 12%; black;" class=" d-flex justify-content-center align-items-centerp-3  py-3 p-3 rounded-5 border-0">VIEW ALL POST</button>
+    <button id="btn" style="width: 12%; black;" class=" d-flex justify-content-center align-items-centerp-3  py-3 p-3 rounded-5 border-0">VIEW ALL POST</button>
     <div style="width: 100%;" id="blog2" class="d-flex position-absolute">
         <div id="ca1" class="col-6 rounded-4 d-flex flex-column justify-content-center align-items-center gap-4">
             <p style="font-size: 20px;">Are you Ready?</p>
@@ -40,7 +40,7 @@ export default {
         <div id="ca2" class="col-6 rounded-4 d-flex flex-column justify-content-center align-items-center gap-4">
             <p style="font-size: 20px;">What are you waiting for?</p>
             <h2>Start a new project</h2>
-            <button style="width: 25%; black;" class=" d-flex justify-content-center align-items-centerp-3 py-3 p-3 rounded-5 border-0">START NOW</button>
+            <button style="width: 25%;;" class=" d-flex justify-content-center align-items-centerp-3 py-3 p-3 rounded-5 border-0">START NOW</button>
         </div>
     
     </div>
@@ -89,11 +89,14 @@ export default {
         transition: 1s;
     }
 
-    #btnN {
+    #btn {
         color: white;
         background-image: linear-gradient(to right, #545454, #000000);
         margin-top: 150px;
         margin-bottom: 50px;
+        &:hover{
+            background-image: linear-gradient(to right, #96E061 , #05d9a4);
+        }
     }
     
     #blog2{
@@ -153,9 +156,11 @@ export default {
             }
             button{
                 color: white;
-        background-image: linear-gradient(to right, #545454, #000000);
-               
-                
+                background-image: linear-gradient(to right, #545454, #000000);
+            }
+
+            button:hover{
+                background-image: linear-gradient(to right, #96E061 , #05d9a4);
             }
         }
     }
