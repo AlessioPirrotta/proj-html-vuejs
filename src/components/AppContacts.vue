@@ -12,7 +12,7 @@ export default{
 </script>
 
 <template>
-    <div id="con" class="d-flex justify-content-center align-items-center" style="height: 600px;">
+    <div id="con" class="d-flex justify-content-center align-items-center" style="height: 500px;">
         <div class="d-flex" style="width: 85%;">
             <div style="width: 50%;" class="d-flex">
                 <div style="width: 50%;">

@@ -9,6 +9,7 @@ import AppClients from './components/AppClients.vue'
 import AppBlog from './components/AppBlog.vue'
 import AppPartners from './components/AppPartners.vue'
 import AppContacts from './components/AppContacts.vue'
+import AppFooter from './components/AppFooter.vue'
 export default{
     components:{
         AppHeader,
@@ -19,7 +20,8 @@ export default{
         AppClients,
         AppBlog,
         AppPartners,
-        AppContacts
+        AppContacts,
+        AppFooter
     },
     data() {
         return {
@@ -39,6 +41,7 @@ export default{
     <AppBlog/>
     <AppPartners/>
     <AppContacts/>
+    <AppFooter/>
 </template>
 
 <style lang="scss">
